@@ -1,0 +1,20 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+{% for post in site.categories.projects %}
+    <article class="box">
+          <header>
+                <h1><span><a href="{{post.url}}" title="Read more about '{{ post.title }}'">{{ post.title }}</a></span></h1>
+                 <div class="postdate">
+                <time datetime="{{post.date | date: "%Y-%m-%d"}}" title="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date_to_string}}</time>                                       
+                 </div>
+        </header>        
+        {{ post.excerpt | markdownify }}
+        <footer>     
+           
+              <p class="more"><a href="{{ post.url }}#more" title="Read more about '{{ post.title }}'">[read more]</a></p>
+        </footer>
+        </article>
+{% endfor %}

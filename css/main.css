@@ -1,0 +1,257 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Raleway:200);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: black; }
+  a:visted {
+    text-decoration: none;
+    decoration: none; }
+  a:hover {
+    color: red;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+
+@media screen and (max-width: 605px) {
+  img {
+    max-width: 350px; } }
+
+body {
+  background: url(images/brushed.png); }
+
+button {
+  border: 1px solid #076fe4;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 0 #8ebcf1;
+  color: white;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: #4294f0;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4294f0), color-stop(100%, #0776f3));
+  background-image: -webkit-linear-gradient(#4294f0, #0776f3);
+  background-image: linear-gradient(#4294f0, #0776f3);
+  padding: 7px 18px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #0065d6;
+  background-clip: padding-box; }
+  button:hover:not(:disabled) {
+    box-shadow: inset 0 1px 0 0 #60a2ec;
+    cursor: pointer;
+    background-color: #2f87ea;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f87ea), color-stop(100%, #086fe3));
+    background-image: -webkit-linear-gradient(#2f87ea, #086fe3);
+    background-image: linear-gradient(#2f87ea, #086fe3); }
+  button:active:not(:disabled) {
+    border: 1px solid #076fe4;
+    box-shadow: inset 0 0 8px 4px #0868d3, inset 0 0 8px 4px #0868d3, 0 1px 1px 0 #eeeeee; }
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed; }
+
+article.box {
+  padding-bottom: 1.5em; }
+
+.blogtitle {
+  font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/*Gridwork*/
+.container {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px; }
+  .container:before, .container:after {
+    content: " ";
+    display: table; }
+  .container:after {
+    clear: both; }
+
+.sidebar {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 40.29137%; }
+  .sidebar:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 605px) {
+    .sidebar {
+      float: left;
+      display: block;
+      margin-right: 5.85151%;
+      width: 100%; }
+      .sidebar:last-child {
+        margin-right: 0; } }
+
+.main {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 57.35098%;
+  float: right;
+  padding: 25px;
+  background: white;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  border-color: white;
+  margin-top: 1em; }
+  .main:last-child {
+    margin-right: 0; }
+  .main h1 {
+    font-family: 'Oswald', sans-serif; }
+  .main p {
+    font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #282828;
+    font-weight: 300; }
+  @media screen and (max-width: 605px) {
+    .main {
+      float: left;
+      display: block;
+      margin-right: 5.85151%;
+      width: 100%; }
+      .main:last-child {
+        margin-right: 0; } }
+
+.content {
+  margin-top: -1.5em; }
+  .content h2 {
+    font-family: 'Oswald', sans-serif; }
+
+.postdate {
+  color: gray;
+  font-family: 'Oswald', sans-serif;
+  margin-top: -20px; }
+
+.more {
+  float: right;
+  margin-top: -.5em;
+  color: red;
+  padding: 5px; }
+  .more a {
+    color: red; }
+  .more a:hover {
+    color: gray; }
+
+/* Welcome sidebar */
+.welcome {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.85em;
+  padding-bottom: .2em; }
+  .welcome span {
+    color: red; }
+
+.img {
+  text-align: center; }
+
+.tagline {
+  padding-top: 1em;
+  text-align: center;
+  color: gray;
+  font-family: 'Open Sans', sans-serif; }
+
+.social-icons {
+  padding-top: 1em;
+  padding-left: 6.9em; }
+  @media screen and (max-width: 605px) {
+    .social-icons {
+      padding-left: 2em;
+      text-align: center; } }
+  @media screen and (max-width: 870px) {
+    .social-icons {
+      padding-left: 1em;
+      text-align: center; } }
+  @media screen and (max-width: 648px) {
+    .social-icons {
+      padding-left: 0em;
+      text-align: center; } }
+
+.twitter {
+  display: inline-block; }
+
+.github {
+  display: inline-block;
+  padding-left: 30px; }
+
+.linkedin {
+  display: inline-block;
+  padding-left: 30px; }
+
+.email {
+  display: inline-block;
+  padding-left: 30px; }
+
+/* Navigation */
+.nav {
+  padding-top: 1em;
+  font-family: 'Raleway', sans-serif; }
+  .nav li {
+    text-align: left;
+    font-size: 2em;
+    list-style-type: none; }
+
+/* Recent Posts */
+.viewposts {
+  text-align: right;
+  font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-weight: 300;
+  padding-top: .5em; }
+  .viewposts a {
+    color: gray; }
+    .viewposts a:hover {
+      color: red; }
+  @media screen and (max-width: 605px) {
+    .viewposts {
+      padding-bottom: 1em;
+      text-align: center;
+      margin-top: -1.25em; } }
+
+#arrow {
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 4px solid rgba(0, 0, 0, 0.5);
+  border-left: 0;
+  display: inline-block; }
+  #arrow #arrow:hover {
+    border-right: 6px solid red; }
+
+.box li {
+  font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+#archive h3 {
+  font-family: 'Oswald', sans-serif; }
+#archive ul {
+  list-style-type: none; }
+#archive time {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  display: inline;
+  color: #5b5b5b; }
+#archive a {
+  font: 20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline;
+  padding-left: 10px;
+  line-height: 3em; }
+@media screen and (max-width: 605px) {
+  #archive time {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    display: block;
+    color: #5b5b5b; }
+  #archive a {
+    font: 20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: inline;
+    line-height: 1em;
+    font-size: 1.3; }
+  #archive li {
+    padding-bottom: 1.2em; } }

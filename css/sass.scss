@@ -1,0 +1,334 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Raleway:200);
+
+
+	$mobile: new-breakpoint(max-width 605px 5);
+	$tablet: new-breakpoint(max-width 870px 5);
+	$tablet7: new-breakpoint(max-width 648px 5);
+
+a {
+	text-decoration:none;
+	color:black;
+	&:visted {
+	text-decoration: none;
+	decoration:none;
+    }
+    &:hover {
+    color:red;
+    @include transition (all .2s ease-in-out);
+    }
+	
+
+}
+
+img {
+
+	@include media($mobile) {
+
+  	max-width:350px;
+		}
+
+		
+}
+
+
+body {
+	background:url(images/brushed.png);
+
+}
+
+
+button {
+	@include button;
+}
+
+
+article.box {
+	padding-bottom: 1.5em;
+}
+
+
+
+.blogtitle {
+	font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*Gridwork*/
+.container {
+	
+	@include outer-container;  
+	margin-top:35px;
+
+}
+
+.sidebar {
+		@include span-columns(5);
+
+	
+
+		@include media($mobile) {
+
+  		@include span-columns(5);
+		}
+	}
+
+.main {
+
+		@include span-columns(7);
+		float:right;
+		@include pad(25px);
+		background: white;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		border-radius: 6px;
+		border-color:white;
+		margin-top:1em;
+
+
+
+		h1 {
+			font-family: 'Oswald', sans-serif;
+			}
+
+		p {
+			font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+			color: #282828;
+			font-weight: 300;
+		}
+
+
+		
+
+
+		@include media($mobile) {
+  			@include span-columns(5);
+		}
+	}
+
+
+	.content {
+		margin-top: -1.5em;
+
+
+		h2 {
+		font-family: 'Oswald', sans-serif;
+		}
+	}
+
+.postdate {
+	color: gray;
+    font-family: 'Oswald', sans-serif;
+	margin-top:-20px;
+
+
+}
+
+
+
+
+.more {
+
+float:right; 
+margin-top: -.5em;
+color:red;
+@include pad(5px);
+
+
+
+  a {
+  	color:red;
+  	
+  }
+
+  a:hover {
+  	color:gray;
+  }
+
+
+}
+
+
+/* Welcome sidebar */
+.welcome {
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.85em;
+	padding-bottom:.2em;
+
+	span {
+		color:red;
+	}
+
+	
+}
+
+.img {
+	text-align:center;
+
+}
+
+.tagline {
+	padding-top:1em;
+	text-align:center;
+	color:gray;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.social-icons {
+	padding-top:1em;
+	padding-left:6.9em;
+
+	@include media($mobile) {
+  			padding-left:2em;
+  			text-align:center;
+		}
+
+
+	@include media($tablet) {
+  			padding-left:1em;
+  			text-align:center;
+		}
+
+	@include media($tablet7) {
+  			padding-left:0em;
+  			text-align:center;
+		}
+}
+.twitter{display:inline-block;}
+.github{display:inline-block; padding-left:30px;}
+.linkedin{display:inline-block; padding-left:30px;}
+.email{display:inline-block; padding-left:30px;}
+/* Navigation */
+
+.nav {
+	padding-top:1em;
+	font-family: 'Raleway', sans-serif;
+
+	li {
+			text-align:left;
+			font-size:2em;
+		    list-style-type: none;
+
+	}
+}
+
+
+
+
+/* Recent Posts */
+.viewposts {
+	text-align:right;
+	font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+			color: #333;
+			font-weight: 300;
+	padding-top:.5em;
+
+	a {
+		color:gray;
+
+		&:hover {
+			color:red;
+		}
+	}
+
+
+	@include media($mobile) {
+  			padding-bottom:1em;
+  			text-align:center;
+  			margin-top:-1.25em;
+  			
+
+		}
+}
+
+
+#arrow {
+	
+	border-top: 4px solid transparent;  
+	border-bottom: 4px solid transparent; 
+	border-right: 4px solid rgba(0,0,0,0.5); 
+	border-left: 0; 
+	display:inline-block;
+
+
+	#arrow:hover{
+		border-right: 6px solid rgba(255,0,0,1); 
+
+	
+	}
+
+}
+
+
+.box {
+
+	li {
+font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+}
+
+
+
+
+#archive {
+
+
+	h3 {
+		font-family: 'Oswald', sans-serif;
+	}
+
+	ul {
+		list-style-type:none;
+	}
+
+	time {
+		font-family: 'Oswald', sans-serif;
+		font-size:14px;
+		
+		display:inline;
+		color:#5b5b5b;
+	}
+
+	a {
+		font: 20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		display:inline;
+		padding-left:10px;
+		line-height:3em;
+		
+	}
+
+	@include media($mobile) {
+  			
+
+
+	
+	time {
+		font-family: 'Oswald', sans-serif;
+		font-size:14px;
+		
+		display:block;
+		color:#5b5b5b;
+	}
+
+	a {
+		font: 20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		display:inline;
+		line-height:1em;
+		font-size:1.3;
+		
+	}
+  			
+  	li {
+  		padding-bottom:1.2em;
+  	}
+
+		}
+
+
+
+}
+

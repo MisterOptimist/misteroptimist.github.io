@@ -1,0 +1,5 @@
+name: Your New Jekyll Sit
+markdown: redcarpet
+pygments: true
+paginate: 3
+excerpt_separator: <!--more-->

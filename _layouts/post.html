@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<div class="postdate">{{ page.date | date_to_string }}</div>
+<div class="post">
+{{ content }}
+<div class="viewposts"><a href="{{ site.url }}/blog"><div id="arrow"> </div> back to blog</a></div>
+</div>

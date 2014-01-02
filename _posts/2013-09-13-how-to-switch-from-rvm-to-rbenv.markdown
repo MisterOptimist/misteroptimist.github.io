@@ -11,7 +11,7 @@ descripton: How to switch from RVM to Rbenv the easy way.
 The first question you might ask yourself is *Why should/would I need to switch?*
 The answer is simply *you don't.* It is completely up to you whether or not you want to. I've found that in my development workflow rbenv just works better. I don't have to worry about managing gemsets. *Bundler* takes care of all that for me already.
 
-<!-- more --> 
+
 ##Remove RVM
 ````
   rvm implode

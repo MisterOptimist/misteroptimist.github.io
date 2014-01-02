@@ -8,7 +8,7 @@ keywords: vim,how,to,powerbar,osx,
 descripton: How to install Powerline in OSX. The easy way.
 ---
 I've been lurking on reddit for sometime checking out the sweet developer setups they have posted in some of their customization subreddits. They make me jealous a bit. So I set out to try to customize my own system with some of these things.
-<!-- more -->
+
 The thing I found in common with most of these setups were that the people were using *VIM.* Ok Check, I've got that installed. Now what? *Tmux.* Ok, thats pretty easy as well (Thanks homebrew!).
 
 What I really had wanted is [Powerline](https://github.com/Lokaltog/powerline).Its a beautiful statusplugin for Vim that just makes it look *Sweet*. However I had some trouble getting it installed. I spent a lot of time trying to just get powerline installed. For some reason it wasn't installing into my correct directory and I couldn't find it anywhere once I had compiled it. But then I stumbled on a website that helped me get going. So Kudos to *saulict*. Here is his site. [How to Install Vim and Powerline in osx](http://saulic.info/blog/vim-powerline-mac-osx-howto/).

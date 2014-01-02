@@ -9,7 +9,7 @@ descripton: My take on why online education matters.
 ---
 I suppose I should preface this a little bit with who I am and what I do. My name is Casey Dierking and I'm a self taught web developer living in Battambang, Cambodia. I currently teach web development with technologies ranging from CSS to Ruby on Rails. I've lived in Cambodia for one yar so far and thats where this post begins.
 
-<!--more-->
+
 In January of 2013 I heard about an online initiative to fuel *free* online education called [Edx](http://www.edx.org).
 
 

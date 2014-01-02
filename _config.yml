@@ -2,4 +2,3 @@ name: Casey Dierking
 markdown: redcarpet
 pygments: true
 paginate: 3
-excerpt_separator: <!--more-->

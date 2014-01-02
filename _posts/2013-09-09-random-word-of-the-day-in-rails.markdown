@@ -11,7 +11,7 @@ The best part about deploying a site that is functioning properly is getting to 
 
 Currently I'm working on implementing a word of the day into a language timesheet tracker site I have been working on. My initial thought was to use a textfile and pair up the words with a **Word** - *Definition* type structure. However this proved to be difficult because I'm dealing with a different language. The Khmer Language kept giving me lots of issues.
 
-<!-- more -->
+
 So the way I wanted it setup was to show the Khmer *word*, the english *translation*, and only show **one** each day.
 
 I decided to try my hand at writing my own. I decided to go the route of just generating a new table in the database of words. That way whoever is an admin can get in and add any words they want to at their hearts desire.

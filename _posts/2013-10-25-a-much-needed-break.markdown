@@ -8,7 +8,7 @@ keywords: break,development,burnt,out
 descripton: Why it is important to take breaks when learning to code.
 ---
 I started learning to code at the beginning of January 2014. I feel like I inhaled pretty much every online resource I could think of. It got to the point where I felt smothered by all of the materials available. It kind of sounds like a good problem to have eh? Too many resources?
-<!--more-->
+
 
 Anyway, my wife and I decided to go home for an early thanksgiving for our vacation time. We had been in Cambodia for over 1 year and 2 months. It was definitely time for a needed break. During that time, I told myself I wasn't going to work on any code or even blog. Its given me time to reflect on this past year. As I started thinking about it,  I thought I would write down a few cool things that have happened with the computer class.
 

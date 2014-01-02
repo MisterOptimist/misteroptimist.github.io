@@ -10,7 +10,7 @@ descripton: Here is how to setup FactoryGirl and Rspec in your rails app.
 Today I setup FactoryGirl and Rspec in my rails app. 
 Its fairly easy to do, here is how I did it and got my first Test to pass.
 
-<!-- more -->
+
 Add this code to your gemfile. Then run bundle to install them.
 
 ````

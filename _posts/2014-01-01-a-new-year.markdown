@@ -1,0 +1,30 @@
+---
+layout: post
+title: "A New Year — Some New Goals"
+date: 2014-01-01 09:21
+comments: true
+categories: thoughts 
+keywords: new,year,programming
+descripton: It is hard to believe that 2014 is already here.
+---
+It is hard to believe that 2014 has already come upon us. Every year it seems we make comments about how time flies. Indeed it does. Last year was a fantastic year for me. January 2013 was the month I started to code. Since then, I've coded up a few [projects](www.caseydierking.com/portfolio) since then. But alas, I still have so much more to learn. I'd like to begin this year by setting some goals that I would like to accomplish in 2014. 
+
+##Technology Goals
+1. I want to _really_ understand the fundamentals of the **C** programming language.
+
+	_C was the first language I learned. I only learned the basics of it at the time, but I really want to dive in more. There are a lot of things to learn from a low level programming langauge._
+	
+2. I want to become fluent in **Javascript**. _Note: **Javascript** not **jQuery**._
+
+	_This one is long overdue. I've been hacking around on different websites for a couple years now. I've just recently gotten to a point where I feel fully comfortable developing HTML/CSS sites from scratch. Javascript is the obvious next move._
+3. Setup a dualboot **arch linux** install on my MacBook Pro.
+
+	_At our small computer lab here in Cambodia, I loaded up arch linux on four ancient dells. I had ubuntu running on them before and the difference is night and day. The pacman package manager has been such a joy to work with; I'd really like to run in on my daily development machine. There is something so *elegant* about arch. This is a must for this year._
+4. Build at least **3** solid side projects with the intent of learning new technologies.
+
+	_I recently picked up [Sass](www.sass-lang.com) and frameworks such as [Bourbon Neat](neat.bourbon.io) when designing my website. I found it such a joy to use. I'd like to continue branching out with new technologies and building things along the way._
+5. Finally, I'd like to contribute to **open source**.
+
+	_This one has been on the list for a long time, but I have always been too scared to do it. One thing that I am realizing though is that no matter how small the contribution, it makes a difference. I want to start being active in the community and giving back._
+
+These are just some thoughts I had as I was reflecting on what this year will look like. I hope to learn so much more. I'm going to start by taking [edx's CS50](https://www.edx.org/course/harvardx/harvardx-cs50x-introduction-computer-1022_) course taught by [David Malan](http://cs.harvard.edu/malan/). I'll be posting about it here soon, so keep checking in.

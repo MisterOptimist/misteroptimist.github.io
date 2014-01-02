@@ -8,8 +8,9 @@ keywords: new,year,programming
 descripton: It is hard to believe that 2014 is already here.
 ---
 It is hard to believe that 2014 has already come upon us. Every year it seems we make comments about how time flies. Indeed it does. Last year was a fantastic year for me. January 2013 was the month I started to code. Since then, I've coded up a few [projects](www.caseydierking.com/portfolio) since then. But alas, I still have so much more to learn. I'd like to begin this year by setting some goals that I would like to accomplish in 2014. 
+<!--more-->
 
-##Technology Goals
+###Technology Goals
 1. I want to _really_ understand the fundamentals of the **C** programming language.
 
 	_C was the first language I learned. I only learned the basics of it at the time, but I really want to dive in more. There are a lot of things to learn from a low level programming langauge._

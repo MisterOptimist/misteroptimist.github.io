@@ -12,7 +12,7 @@
 
 a {
 	text-decoration:none;
-	color:black;
+	color:red;
 	&:visted {
 	text-decoration: none;
 	decoration:none;
@@ -91,6 +91,15 @@ article.box {
 
 		h1 {
 			font-family: 'Oswald', sans-serif;
+
+			a {
+				color:black;
+				&:hover{
+					color:red;
+					@include transition (all .2s ease-in-out);
+
+				}
+			  }
 			}
 
 		p {
@@ -122,9 +131,7 @@ article.box {
 	color: gray;
     font-family: 'Oswald', sans-serif;
 	margin-top:-20px;
-
-
-}
+	}
 
 
 
@@ -146,8 +153,6 @@ color:red;
   a:hover {
   	color:gray;
   }
-
-
 }
 
 
@@ -158,11 +163,18 @@ color:red;
 	font-size: 2.85em;
 	padding-bottom:.2em;
 
+	a {
+		color:black;
+	}
+
+	a:hover {
+		color:red;
+		@include transition (all .2s ease-in-out);
+	}
+
 	span {
 		color:red;
 	}
-
-	
 }
 
 .img {
@@ -206,11 +218,24 @@ color:red;
 .nav {
 	padding-top:1em;
 	font-family: 'Raleway', sans-serif;
+	color:black;
+
+
 
 	li {
 			text-align:left;
 			font-size:2em;
 		    list-style-type: none;
+
+	a {
+		color:black;
+
+		&:hover{
+			color:red;
+			@include transition (all .2s ease-in-out);
+
+		}
+	}
 
 	}
 }
@@ -267,8 +292,8 @@ color:red;
 .box {
 
 	li {
-font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+			font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
 
 }
 

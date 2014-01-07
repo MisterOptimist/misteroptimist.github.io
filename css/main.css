@@ -9,7 +9,7 @@
 
 a {
   text-decoration: none;
-  color: black; }
+  color: red; }
   a:visted {
     text-decoration: none;
     decoration: none; }
@@ -108,6 +108,13 @@ article.box {
     margin-right: 0; }
   .main h1 {
     font-family: 'Oswald', sans-serif; }
+    .main h1 a {
+      color: black; }
+      .main h1 a:hover {
+        color: red;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out; }
   .main p {
     font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #282828;
@@ -147,6 +154,13 @@ article.box {
   font-family: 'Oswald', sans-serif;
   font-size: 2.85em;
   padding-bottom: .2em; }
+  .welcome a {
+    color: black; }
+  .welcome a:hover {
+    color: red;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
   .welcome span {
     color: red; }
 
@@ -193,11 +207,19 @@ article.box {
 /* Navigation */
 .nav {
   padding-top: 1em;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  color: black; }
   .nav li {
     text-align: left;
     font-size: 2em;
     list-style-type: none; }
+    .nav li a {
+      color: black; }
+      .nav li a:hover {
+        color: red;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out; }
 
 /* Recent Posts */
 .viewposts {

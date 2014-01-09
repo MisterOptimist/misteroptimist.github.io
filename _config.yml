@@ -1,4 +1,6 @@
 name: Casey Dierking
+description: Casey Dierking's technical blog.
+url: http://caseydierking.com
 markdown: redcarpet
 pygments: true
 paginate: 3

@@ -1,0 +1,13 @@
+---
+layout: post
+title: "It's Been A While..."
+date: 2015-02-02 09:21
+comments: true
+categories: thoughts 
+keywords: new,year,
+descripton: A long overdue update.
+---
+
+I can't believe how long it has been since I have updated this blog. I need to get better at keeping it updated. I suppose that is what happens when you start a new job and are adjusting to living in a different place.
+
+Since my last post, we've transitioned back to the US and I've been happily hacking away at my new job at [The Bridge Church](www.thebridgechurch.cc). We just revamped that site. I'll write another post about it later detailing how we did it. But it is a custom Craft CMS website that is tailored specifically to our needs. It is glorious.
